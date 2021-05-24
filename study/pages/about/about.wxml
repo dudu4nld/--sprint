@@ -1,0 +1,5 @@
+<!--pages/about/about.wxml-->
+<view class="title">
+  <image class="img" src='/static/images/logo.png'></image>
+  <image class="img2" src='/static/images/money.png'></image>
+</view>

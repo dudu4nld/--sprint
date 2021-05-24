@@ -1,0 +1,22 @@
+<!--pages/shop/shop.wxml-->
+
+<view class='ditem' wx:for="{{datas}}">
+  <view class='dtview card_bg_03'>
+    <view class='dface'>
+      <image src='/static/images/shop.jpeg'></image>
+    </view>
+    <view class='dcontent'>
+      <view class='dtitle'>{{item.shop}}</view>
+      <view class='dinfo'>{{item.title}}</view>
+    </view>
+    <view class='dreceive'>
+      <view class='btn cfont_color_03' data-id='{{item.activity_id}}' bindtap='getCoupon'>兑换</view>
+    </view>
+  </view>
+  <view class='dbview'>
+    <view class='ldb'>有限期至{{item.end_date}}</view>
+    <view class='rdb'>还剩{{item.num}}份</view>
+  </view>
+</view>
+
+

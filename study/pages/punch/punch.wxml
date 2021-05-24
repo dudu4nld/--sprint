@@ -1,0 +1,8 @@
+<view class="title">
+  <image class="img" src='/static/images/logo.png'></image>
+</view>
+
+
+
+<button  class="circle" bindtap="btn_click">今日打卡</button>
+<button  class="circle2" bindtap="btn_click2">打卡记录</button>

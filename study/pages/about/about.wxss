@@ -1,0 +1,28 @@
+/* pages/about/about.wxss */
+page {
+  background: #ffffff00;
+  padding: 0 0rpx 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+}
+/* pages/leftSwiperDel/index.wxss */
+view{
+    box-sizing: border-box;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.img{
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 50%;
+    margin: 100rpx 0;
+}
+.img2{
+  width: 500rpx;
+  height: 600rpx;
+}

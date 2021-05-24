@@ -1,0 +1,29 @@
+/* pages/loginer/loginer.wxss */
+page{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+
+text{
+  color:#87CEFA;
+  font-size: 20px;
+}
+button{
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  color: white;
+  background-color:  #87CEFA;
+  right: 0;
+  text-align: center;       
+  width: 40%;
+  height: 50px;      
+  border-radius: 20px;    
+}
+.back_img{
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+}

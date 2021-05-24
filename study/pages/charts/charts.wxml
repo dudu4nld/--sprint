@@ -1,0 +1,17 @@
+<view class="title">打卡排行</view>
+<view class="item-box">
+  <view class="items">
+    <view wx:for="{{list}}"  wx:key="{{index}}"  class="item">
+      <view data-index="{{index}}" class="inner txt">
+        <image class="item-icon" mode="widthFix" src="{{item.attributes.userPic}}"></image>
+      <span class="item-data">
+        <i class="rank" >   {{index+1}} </i>
+        <i class="username" >   {{item.attributes.nickname}}</i>
+       <i class="rankpace">   积分：{{item._serverData.score}}</i>
+        <!-- <span class="rankxin">{{item.xin}}</span> -->
+      </span>
+      </view>
+    </view>
+  </view>
+</view><!--pages/ranking/ranking.wxml-->
+
